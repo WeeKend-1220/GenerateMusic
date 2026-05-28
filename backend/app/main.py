@@ -51,7 +51,7 @@ def _auto_migrate(connection) -> None:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    logger.info("Starting HikariWave backend v%s", settings.app_version)
+    logger.info("Starting GenerateMusic backend v%s", settings.app_version)
     # Create tables
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
@@ -82,7 +82,7 @@ async def lifespan(app: FastAPI):
     except Exception:
         pass
     await engine.dispose()
-    logger.info("HikariWave backend stopped")
+    logger.info("GenerateMusic backend stopped")
 
 
 app = FastAPI(
