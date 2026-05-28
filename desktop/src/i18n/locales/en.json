@@ -3,6 +3,7 @@
     "create": "Create",
     "library": "Library",
     "providers": "Providers",
+    "wealth": "Wealth",
     "settings": "Settings",
     "newCreation": "New Creation"
   },
@@ -239,7 +240,7 @@
   },
   "settings": {
     "title": "Settings",
-    "subtitle": "Configure your HikariWave instance",
+    "subtitle": "Configure your GenerateMusic instance",
     "backendConnection": "Backend Connection",
     "apiBaseUrl": "API Base URL",
     "testConnection": "Test Connection",
@@ -385,6 +386,68 @@
     "duichangDesc": "Romantic duet with intertwined vocals",
     "hechang": "Group Chorus",
     "hechangDesc": "Energetic multi-voice anthem with orchestra"
+  },
+  "wealth": {
+    "title": "Wealth",
+    "subtitle": "A quick look at assets and cashflow",
+    "riskTag": "Demo data · For reference only",
+    "hideAmounts": "Hide amounts",
+    "showAmounts": "Show amounts",
+    "totalAssets": "Total assets",
+    "dailyProfit": "Today",
+    "dailyRate": "Return rate",
+    "fit": "Fit",
+    "fitTitle": "Based on your preference",
+    "fitDesc": "A balanced, steadier allocation aiming for smoother growth",
+    "quick": {
+      "recharge": "Top up",
+      "rechargeHint": "Add funds quickly",
+      "transfer": "Transfer",
+      "transferHint": "Start an expense",
+      "buy": "Buy wealth products",
+      "buyHint": "Check curated picks",
+      "bills": "Bills / Ledger",
+      "billsHint": "Track fund details"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "transactions": "Transactions",
+      "recommend": "Recommendations"
+    },
+    "tip": "Purple cards · smooth like a mini program",
+    "distribution": {
+      "title": "Asset allocation",
+      "desc": "Allocation share by category",
+      "totalLabel": "Allocation"
+    },
+    "cashflow": {
+      "title": "This month cashflow",
+      "desc": "Infer net cash from inflow / outflow",
+      "inflow": "Inflow",
+      "outflow": "Outflow",
+      "net": "Net",
+      "comment": "Net inflow is positive, the structure is more steadier."
+    },
+    "recent": {
+      "title": "Recent activity",
+      "desc": "A compact summary of latest changes"
+    },
+    "more": "View more",
+    "transactions": {
+      "title": "Transactions / Ledger",
+      "desc": "Recent fund movements (demo)",
+      "count": "{{count}} records",
+      "in": "Income",
+      "out": "Expense"
+    },
+    "recommend": {
+      "title": "Curated recommendations",
+      "desc": "Example picks based on a steadier preference",
+      "hint": "Swipe right to explore more",
+      "term": "Term",
+      "risk": "Risk",
+      "cta": "View now"
+    }
   },
   "structureTags": {
     "Intro": "Intro",

@@ -2,7 +2,7 @@
 
 # 一键启动：后端 + Tauri 桌面端（含前端）
 dev:
-	@echo "🎵 Starting HikariWave (Backend + Tauri Desktop)..."
+	@echo "🎵 Starting GenerateMusic (Backend + Tauri Desktop)..."
 	@trap 'kill 0' EXIT; \
 		$(MAKE) backend & \
 		sleep 2 && $(MAKE) tauri & \

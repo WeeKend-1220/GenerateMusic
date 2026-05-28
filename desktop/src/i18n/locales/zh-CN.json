@@ -3,6 +3,7 @@
     "create": "创建",
     "library": "音乐库",
     "providers": "服务商",
+    "wealth": "财富管理",
     "settings": "设置",
     "newCreation": "新建创作"
   },
@@ -239,7 +240,7 @@
   },
   "settings": {
     "title": "设置",
-    "subtitle": "配置你的 HikariWave 实例",
+    "subtitle": "配置你的 GenerateMusic 实例",
     "backendConnection": "后端连接",
     "apiBaseUrl": "API 基础 URL",
     "testConnection": "测试连接",
@@ -385,6 +386,68 @@
     "duichangDesc": "男女声交织的浪漫情歌",
     "hechang": "多人合唱",
     "hechangDesc": "青春励志，多声部和声磅礴大气"
+  },
+  "wealth": {
+    "title": "财富管理",
+    "subtitle": "一眼看懂资产与资金动向",
+    "riskTag": "演示数据 · 仅供参考",
+    "hideAmounts": "隐藏金额",
+    "showAmounts": "显示金额",
+    "totalAssets": "总资产",
+    "dailyProfit": "今日收益",
+    "dailyRate": "收益率",
+    "fit": "匹配度",
+    "fitTitle": "你的偏好更适合",
+    "fitDesc": "以稳健配置为主，兼顾收益与波动",
+    "quick": {
+      "recharge": "充值",
+      "rechargeHint": "快速补充资金",
+      "transfer": "转账",
+      "transferHint": "一键发起支出",
+      "buy": "购买理财",
+      "buyHint": "查看精选产品",
+      "bills": "账单/流水",
+      "billsHint": "追踪资金明细"
+    },
+    "tabs": {
+      "overview": "资产概览",
+      "transactions": "交易",
+      "recommend": "理财推荐"
+    },
+    "tip": "紫色氛围卡片 · 像小程序一样顺滑",
+    "distribution": {
+      "title": "资产分布",
+      "desc": "按类别展示当前配置占比",
+      "totalLabel": "配置概览"
+    },
+    "cashflow": {
+      "title": "本月资金流",
+      "desc": "从流入/流出推演净流量",
+      "inflow": "流入",
+      "outflow": "流出",
+      "net": "净流量",
+      "comment": "整体净流入为正，配置结构更偏稳健。"
+    },
+    "recent": {
+      "title": "最近交易",
+      "desc": "为你汇总最新的资产变动"
+    },
+    "more": "查看更多",
+    "transactions": {
+      "title": "交易/流水",
+      "desc": "最近的资金变动记录（演示）",
+      "count": "{{count}} 笔记录",
+      "in": "收入",
+      "out": "支出"
+    },
+    "recommend": {
+      "title": "精选理财推荐",
+      "desc": "基于稳健偏好筛选的示例产品",
+      "hint": "向右滑动查看更多",
+      "term": "期限",
+      "risk": "风险",
+      "cta": "立即查看"
+    }
   },
   "structureTags": {
     "Intro": "前奏",
