@@ -147,6 +147,7 @@ export type PageId =
     | "create"
     | "library"
     | "providers"
+    | "wealth"
     | "settings"
     | "detail";
 

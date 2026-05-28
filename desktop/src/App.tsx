@@ -9,11 +9,12 @@ import LibraryPage from "./pages/LibraryPage";
 import ProvidersPage from "./pages/ProvidersPage";
 import SettingsPage from "./pages/SettingsPage";
 import SongDetailPage from "./pages/SongDetailPage";
+import WealthHomePage from "./pages/WealthHomePage";
 import {useAppStore} from "./stores/appStore";
 import {usePlayerStore} from "./stores/playerStore";
 import {api} from "./services/api";
 
-const DISMISS_KEY = "hikariwave-setup-dismissed";
+const DISMISS_KEY = "generate-music-setup-dismissed";
 
 type BannerKind = "offline" | "no-providers" | null;
 
@@ -148,6 +149,7 @@ function PageRouter() {
             {currentPage === "create" && <CreatePage/>}
             {currentPage === "library" && <LibraryPage/>}
             {currentPage === "providers" && <ProvidersPage/>}
+            {currentPage === "wealth" && <WealthHomePage/>}
             {currentPage === "settings" && <SettingsPage/>}
             {currentPage === "detail" && <SongDetailPage/>}
         </div>
@@ -199,7 +201,7 @@ export default function App() {
             >
         <span className="text-[11px] text-text-tertiary
                          font-medium tracking-wide uppercase">
-          HikariWave
+          GenerateMusic
         </span>
             </div>
 

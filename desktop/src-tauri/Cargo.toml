@@ -1,16 +1,16 @@
 [package]
-name = "hikariwave-desktop"
+name = "generate-music-desktop"
 version = "0.1.0"
-description = "HikariWave - AI Music Generation"
-authors = ["HikariWave"]
+description = "GenerateMusic - AI Music Generation"
+authors = ["GenerateMusic"]
 edition = "2021"
 
 [lib]
-name = "hikariwave_desktop_lib"
+name = "generate_music_desktop_lib"
 crate-type = ["lib", "cdylib", "staticlib"]
 
 [[bin]]
-name = "hikariwave-desktop"
+name = "generate-music-desktop"
 path = "src/main.rs"
 
 [build-dependencies]

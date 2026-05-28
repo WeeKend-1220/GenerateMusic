@@ -1,10 +1,10 @@
 <div align="center">
 
-# HikariWave
+# GenerateMusic
 
 **AI 驱动的本地音乐生成桌面应用**
 
-用一句话描述你想要的歌曲，HikariWave 为你完成作词、演唱、编曲和封面设计 —— 一切都在本地运行。
+用一句话描述你想要的歌曲，GenerateMusic 为你完成作词、演唱、编曲和封面设计 —— 一切都在本地运行。
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/)
@@ -70,8 +70,8 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/LordFoxFairy/HikariWave.git
-cd HikariWave
+git clone https://github.com/LordFoxFairy/GenerateMusic.git
+cd GenerateMusic
 
 # 安装 Python 依赖
 uv sync
@@ -193,7 +193,7 @@ huggingface-cli download ACE-Step/acestep-v15-turbo-shift3   # Turbo Shift3
 ## 项目结构
 
 ```
-HikariWave/
+GenerateMusic/
 ├── backend/                    # Python 后端
 │   ├── app/
 │   │   ├── api/endpoints/      # REST 接口
@@ -233,4 +233,3 @@ HikariWave/
 | `make fmt` | 格式化 Python 代码 |
 | `make build-tauri` | 构建桌面端发行版 |
 | `make clean` | 清理构建产物 |
-

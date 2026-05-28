@@ -1,4 +1,4 @@
-import {ChevronLeft, ChevronRight, Layers, Library, Music, PlusCircle, Settings, Sparkles} from "lucide-react";
+import {ChevronLeft, ChevronRight, Layers, Library, Music, PieChart, PlusCircle, Settings, Sparkles} from "lucide-react";
 import {AnimatePresence, motion} from "framer-motion";
 import {useTranslation} from "react-i18next";
 import {useAppStore} from "../stores/appStore";
@@ -8,6 +8,7 @@ const navItems: { id: PageId; labelKey: string; icon: typeof Music }[] = [
     {id: "create", labelKey: "sidebar.create", icon: PlusCircle},
     {id: "library", labelKey: "sidebar.library", icon: Library},
     {id: "providers", labelKey: "sidebar.providers", icon: Layers},
+    {id: "wealth", labelKey: "sidebar.wealth", icon: PieChart},
     {id: "settings", labelKey: "sidebar.settings", icon: Settings},
 ];
 
@@ -44,7 +45,7 @@ export default function Sidebar() {
                             className="font-semibold text-sm text-text-primary
                          tracking-tight whitespace-nowrap overflow-hidden"
                         >
-                            HikariWave
+                            GenerateMusic
                         </motion.span>
                     )}
                 </AnimatePresence>
